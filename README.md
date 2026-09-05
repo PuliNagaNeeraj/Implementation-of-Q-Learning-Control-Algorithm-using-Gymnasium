@@ -126,7 +126,7 @@ Step 9: Display the final Q-table, state-value function, learned policy, and ave
 
 
 ## Python Program
-
+```
 # -------------------------------------------------
 # Q-Learning Training
 # -------------------------------------------------
@@ -166,6 +166,7 @@ for episode in range(num_episodes):
 state_values = np.max(Q, axis=1)
 
 learned_policy = np.argmax(Q, axis=1)
+```
 
 ## Output
 
